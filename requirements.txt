@@ -1,0 +1,10 @@
+
+numpy
+scipy
+mne
+scikit-learn
+joblib
+PyEMD
+brainflow
+pyqtgraph
+PyQt5
