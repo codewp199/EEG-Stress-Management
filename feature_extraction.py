@@ -1,10 +1,4 @@
 
-"""Feature extraction for EEG stress detection.
-
-Provides:
-- Bandpower features via Welch PSD (fast, robust)
-- Optional Hilbert-Huang Transform features (via PyEMD + analytic signal)
-"""
 from __future__ import annotations
 import numpy as np
 import mne
