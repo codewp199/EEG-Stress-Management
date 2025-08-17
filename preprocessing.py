@@ -1,11 +1,4 @@
 
-"""Preprocessing utilities for EEG-based stress detection.
-
-- Loads OpenBCI/CSV data
-- Converts to MNE Raw objects
-- Applies band-pass and notch filtering
-- Optional epoching helper
-"""
 from __future__ import annotations
 import numpy as np
 import mne
