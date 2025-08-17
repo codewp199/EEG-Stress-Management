@@ -1,11 +1,4 @@
 
-"""Real-time EEG demo with BrainFlow + PyQtGraph.
-
-- Streams data from a BrainFlow-supported board (e.g., OpenBCI)
-- Plots time series and PSD per channel
-- Computes band power and simple stress heuristic
-- (Optional) Loads a trained SVM model to predict stress in real-time
-"""
 from __future__ import annotations
 import argparse
 import logging
